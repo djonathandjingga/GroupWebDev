@@ -1,0 +1,46 @@
+ion-header {
+    font-size: 33px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+ion-input {
+    border-radius: 8px;
+    font-size: 0.9em;
+    border: 3px solid black;
+    --background: rgb(219,219,219);
+    height: 25%; 
+    width: 95%;
+}
+
+#input {
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+ion-button {
+    width: 95%;
+    padding-left: 20px;
+    --background: black;
+}
+
+#button {
+    padding-top: 15px;
+}
+
+#register {
+    padding-bottom: 75px;
+}
+
+ion-text {
+    color: grey;
+}
+
+#facebook {
+    padding-top: 35px;
+}
+
+.bg-class{
+    --background: linear-gradient(197deg, rgba(100,100,100,1) 0%, rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 100%) !important;
+  }

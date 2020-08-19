@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Your Favorites</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card (click)="butterChicken()">
+    <img src="https://img.taste.com.au/AbiWkcA0/taste/2016/11/easy-butter-chicken-74432-1.jpeg" />
+    <ion-card-header>
+      <ion-text>
+        <div id="cardContent">
+          <b>Butter Chicken</b>
+        </div>
+      </ion-text>
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="pancakes()">
+    <img
+      src="https://d2dqksvx8j00ig.cloudfront.net/JFront/Cms/Prod/Images/Live/jeunesse_recipe_healthy_flat_pancakes_en-US.jpg" />
+    <ion-card-header>
+      <ion-text>
+        <div id="cardContent">
+          <b>Pancakes</b>
+        </div>
+      </ion-text>
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="splitPeaSoup()">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190319-split-pea-soup-138-1553791829.jpg" />
+    <ion-card-header>
+      <ion-text>
+        <div id="cardContent">
+          <b>Split Pea Soup</b>
+        </div>
+      </ion-text>
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="mintJulep()">
+    <img src="https://cdn-image.realsimple.com/sites/default/files/styles/video_image_1/public/mint-julep-recipe.jpg?itok=vymgwJF3" />
+    <ion-card-header>
+      <ion-text>
+        <div id="cardContent">
+          <b>Mint Julep</b>
+        </div>
+      </ion-text>
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="negroni()">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/negroni-1562327392.jpg" />
+    <ion-card-header>
+      <ion-text>
+        <div id="cardContent">
+          <b>Negroni</b>
+        </div>
+      </ion-text>
+    </ion-card-header>
+  </ion-card>
+</ion-content>

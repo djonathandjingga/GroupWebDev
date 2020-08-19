@@ -1,17 +1,140 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Account
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-avatar>
-    <img src="https://media-exp1.licdn.com/dms/image/C5603AQFYkJVfgpt0gg/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=nwdBY0iqBB7uK9b15VzSGThVC3FvVgam9kKIpQjeFmo">
-  </ion-avatar>
-  
-  <ion-chip color = "success">
-    <ion-label>School</ion-label>
-  </ion-chip>
+<ion-content>
+  <ion-header>
+    <div id="slideTitle">
+      <a href="/trending">
+        <b>Trending</b>
+      </a>
+    </div>
+  </ion-header>
+  <ion-slides [options]="slideOpts">
+    <ion-slide>
+      <ion-card (click)="chickenTeriyaki()">
+        <img src="https://hips.hearstapps.com/delish/assets/17/26/1498598755-teriyaki-chicken.jpg" />
+        <ion-card-header>
+          <ion-text>
+            <div id="slideContent">
+              <b>Chicken Teriyaki</b>
+            </div>
+          </ion-text>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card (click)="kungPaoChicken()">
+        <img src="https://www.pfchangs.com/images/default-source/menu/kung-pao-chicken.jpg?sfvrsn=cc0cfc35_4" />
+        <ion-card-header>
+          <ion-text>
+            <div id="slideContent">
+              <b>Kung Pao Chicken</b>
+            </div>
+          </ion-text>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card (click)="frenchToast()">
+        <img
+          src="https://www.godairyfree.org/wp-content/uploads/2019/10/Honey-Leches-French-Toast-online-feature.jpg" />
+        <ion-card-header>
+          <ion-text>
+            <div id="slideContent">
+              <b>French Toast</b>
+            </div>
+          </ion-text>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+  <ion-header>
+    <div id="slideTitle">
+      <a href="/your-favorites">
+        <b>Your Favorites</b>
+      </a>
+    </div>
+  </ion-header>
+  <ion-slides [options]="slideOpts">
+    <ion-slide>
+      <ion-card (click)="butterChicken()">
+        <img src="https://img.taste.com.au/AbiWkcA0/taste/2016/11/easy-butter-chicken-74432-1.jpeg" />
+        <ion-card-header>
+          <ion-text>
+            <div id="slideContent">
+              <b>Butter Chicken</b>
+            </div>
+          </ion-text>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card (click)="pancakes()">
+        <img
+          src="https://d2dqksvx8j00ig.cloudfront.net/JFront/Cms/Prod/Images/Live/jeunesse_recipe_healthy_flat_pancakes_en-US.jpg" />
+        <ion-card-header>
+          <ion-text>
+            <div id="slideContent">
+              <b>Pancakes</b>
+            </div>
+          </ion-text>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card (click)="splitPeaSoup()">
+        <img
+          src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190319-split-pea-soup-138-1553791829.jpg" />
+        <ion-card-header>
+          <ion-text>
+            <div id="slideContent">
+              <b>Split Pea Soup</b>
+            </div>
+          </ion-text>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+  <ion-header>
+    <div id="slideTitle">
+      <a href="/previous-recipe">
+        <b>Previous Recipes</b>
+      </a>
+    </div>
+  </ion-header>
+  <ion-slides [options]="slideOpts">
+    <ion-slide>
+      <ion-card (click)="pannaCotta()">
+        <img src="https://img.taste.com.au/2dGXg6r2/taste/2016/11/vanilla-bean-panna-cotta-104789-1.jpeg" />
+        <ion-card-header>
+          <ion-text>
+            <div id="slideContent">
+              <b>Panna Cotta</b>
+            </div>
+          </ion-text>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card (click)="jamaicanJerkChicken()">
+        <img src="https://www.simplyrecipes.com/wp-content/uploads/2007/06/jerk-chicken-horiz-a-1600.jpg" />
+        <ion-card-header>
+          <ion-text>
+            <div id="slideContent">
+              <b>Jamaican Jerk Chicken</b>
+            </div>
+          </ion-text>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card (click)="pumpkinPie()">
+        <img src="https://www.onceuponachef.com/images/2015/11/Perfect-Pumpkin-Pie4.jpg" />
+        <ion-card-header>
+          <ion-text>
+            <div id="slideContent">
+              <b>Pumpkin Pie</b>
+            </div>
+          </ion-text>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
 </ion-content>

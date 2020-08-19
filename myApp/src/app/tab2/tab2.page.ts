@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
+  slideOpts = {
+    speed: 400,
+    slidesPerView: 1.3,
+    spaceBetween: -20
+  };
+
   constructor() {}
 
 }

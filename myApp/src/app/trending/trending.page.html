@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Trending</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card (click)="chickenTeriyaki()">
+    <img src="https://hips.hearstapps.com/delish/assets/17/26/1498598755-teriyaki-chicken.jpg" />
+    <ion-card-header>
+      <ion-text>
+        <div id="cardContent">
+          <b>Chicken Teriyaki</b>
+        </div>
+      </ion-text>
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="kungPaoChicken()">
+    <img src="https://www.pfchangs.com/images/default-source/menu/kung-pao-chicken.jpg?sfvrsn=cc0cfc35_4" />
+    <ion-card-header>
+      <ion-text>
+        <div id="cardContent">
+          <b>Kung Pao Chicken</b>
+        </div>
+      </ion-text>
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="frenchToast()">
+    <img src="https://www.godairyfree.org/wp-content/uploads/2019/10/Honey-Leches-French-Toast-online-feature.jpg" />
+    <ion-card-header>
+      <ion-text>
+        <div id="cardContent">
+          <b>French Toast</b>
+        </div>
+      </ion-text>
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="pommesAnna()">
+    <img src="https://www.recipe30.com/wp-content/uploads/2018/10/Pommes-Anna.jpg" />
+    <ion-card-header>
+      <ion-text>
+        <div id="cardContent">
+          <b>Pommes Anna</b>
+        </div>
+      </ion-text>
+    </ion-card-header>
+  </ion-card>
+  <ion-card (click)="chocolateSouffle()">
+    <img src="https://assets.marthastewart.com/styles/wmax-750/d32/md106529_msl_09_02_10_as_raw-089/md106529_msl_09_02_10_as_raw-089_horiz.jpg?itok=FRV1x3sc" />
+    <ion-card-header>
+      <ion-text>
+        <div id="cardContent">
+          <b>Chocolate Souffle</b>
+        </div>
+      </ion-text>
+    </ion-card-header>
+  </ion-card>
+</ion-content>
