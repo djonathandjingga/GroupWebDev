@@ -1,9 +1,11 @@
 const express = require("express");
-var fs = require("fs");
 const router = express.Router();
 const app = express();
- 
+require('dotenv').config();
+const cors = require('cors');
 
+
+app.use(cors());
 
 
 //Middleware function:
@@ -22,7 +24,6 @@ app.use(express.urlencoded({ extended: false }));
 //Routes
 app.use('/api/users', require("./src/api/user_routes"));
 app.use('/api/favorite', require("./src/api/favorite_routes"));
-app.use('/api/ingredients', require("./src/api/ingredients_routes"));
 app.use('/api/recipe', require("./src/api/recipe_routes"));
 app.use('/api/auth', require("./src/api/auth_routes"));
 

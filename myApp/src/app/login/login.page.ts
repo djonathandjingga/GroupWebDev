@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.page.html',
@@ -17,4 +18,7 @@ export class LoginPage implements OnInit {
     this.navCtrl.navigateForward('register')
   }
 
+  tab1() {
+    this.navCtrl.navigateForward('tabs/tab1')
+  }
 }

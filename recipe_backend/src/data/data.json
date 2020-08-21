@@ -1,0 +1,24 @@
+{
+    "users":[
+      {
+        "id":"1",
+        "name":"Byron",
+        "surname":"de Villiers",
+        "cellPhone":"0829123465",
+        "email":"byron@mail.com",
+        "password":"P@ssword",
+        "role":"user"
+      },
+      {
+        "id":"2",
+        "name":"Byran",
+        "surname":"Villiers",
+        "cellPhone":"0829123965",
+        "email":"byran@mail.com",
+        "password":"P@ssword",
+        "role":"provider"
+      }
+    ],
+    "datatype": "numbers"
+  }
+  
